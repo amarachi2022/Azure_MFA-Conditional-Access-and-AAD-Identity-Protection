@@ -2,6 +2,8 @@ Implementing the Azure AD multi-factor authentication, Azure AD conditional acce
 
 Task1 : I deployed an Azure VM by using an Azure Resource Manager template (azuredeploy.json) in USEast
 
+<img width="960" alt="Azure 1a" src="https://user-images.githubusercontent.com/110430121/192354789-bca36a21-650a-468a-aced-a17470514767.png">
+
 
 
 Task 2: I implemented Azure MFA for User1 by activating Azure AD Premium P2 trial in a new tenant
@@ -18,6 +20,7 @@ Step 4: Assigned Azure AD Premium P2 licenses to Azure users
 Step 5: Configured Azure MFA settings for User 1 and set up fraud alerts
 
 Step 6: Validated MFA configuration by testing sign in of user1 user account using an inprivate browser
+
 <img width="960" alt="aad1user login successful" src="https://user-images.githubusercontent.com/110430121/192353074-75dca0e4-69dc-4963-a5e7-eac936096ea0.png">
 
 Task 3: I Implemented Azure AD Conditional Access Policies for User 2
