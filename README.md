@@ -1,12 +1,12 @@
-Implementing the Azure AD multi-factor authentication, Azure AD conditional access, Azure AD Identity Protection with Azure Active Directory.
+# Implementing the Azure AD multi-factor authentication, Azure AD conditional access, Azure AD Identity Protection with Azure Active Directory.
 
-Task1 : I deployed an Azure VM by using an Azure Resource Manager template (azuredeploy.json) in USEast
+## Task1 : I deployed an Azure VM by using an Azure Resource Manager template (azuredeploy.json) in USEast
 
 <img width="960" alt="Azure 1a" src="https://user-images.githubusercontent.com/110430121/192354789-bca36a21-650a-468a-aced-a17470514767.png">
 
 
 
-Task 2: I implemented Azure MFA for User1 by activating Azure AD Premium P2 trial in a new tenant
+## Task 2: I implemented Azure MFA for User1 by activating Azure AD Premium P2 trial in a new tenant
 
 
 Step 1: Created a new Azure AD tenant
@@ -23,15 +23,16 @@ Step 6: Validated MFA configuration by testing sign in of user1 user account usi
 
 <img width="960" alt="aad1user login successful" src="https://user-images.githubusercontent.com/110430121/192353074-75dca0e4-69dc-4963-a5e7-eac936096ea0.png">
 
-Task 3: I Implemented Azure AD Conditional Access Policies for User 2
-
+## Task 3: I Implemented Azure AD Conditional Access Policies for User 2
 
 Step 1: Created a policy that requires MFA when signing in to the Azure portal for user 2
 
-Step 2: Tested the conditional access policy and it required me to use MFA when signing in as user 2 using an  inprivate browser
+<img width="960" alt="conditional access policy" src="https://user-images.githubusercontent.com/110430121/192355790-e20f9e24-e262-410c-ae38-f3109a11d3de.png">
+
+Step 2: Tested the conditional access policy and it required me to use MFA when signing in as user 2 using an inprivate browser
 
 
-Task 4: Implement Azure AD Identity Protection for User3
+## Task 4: Implement Azure AD Identity Protection for User3
 
 
 Step 1: Viewed Azure AD Identity Protection options in the Azure portal ie New risky users detected and New risky sign-ins detected
@@ -42,7 +43,7 @@ Step 3: Configured a sign-in risk policy for all users
 
 Require multi-factor authentication
 
-Task 4: Simulate risk events against the Azure AD Identity Protection policies
+Step 4: Simulate risk events against the Azure AD Identity Protection policies
 
 Use RDp to connect to vitual machine and sighin to azure as user 3 with tor browser
 
